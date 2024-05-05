@@ -1,0 +1,116 @@
+
+
+
+
+body{
+  background: linear-gradient(to right, #3a7bd5, #3a6073);
+  font-family: "Raleway",sans-serif;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+
+}
+
+h1{
+  text-align:center
+}
+body{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("images.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* .Sign Up-btn{
+  background-color:rgb(9, 250, 9);
+  color:#fff;
+  padding: 2%;
+  font-size: 22px;
+  margin: top 10px; }*/ */
+
+
+input{
+  padding: 10px;
+}
+label{
+  font-size:15px;
+  font-weight: bolder;
+  margin: 15px;
+  color:black;
+}
+@media (max-width:400px){
+ 
+  label{
+    color:navy blue;
+  }
+}
+@media (min-width:500px) and (max-width:1000px){
+ 
+  label{
+    color:black;
+  }
+  button{
+    color: black;
+    background-color: lightgreen;
+  }
+}
+.popup{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  
+  transform: translate(-50%,-360%) scale(1.25);
+  width: 300px;
+  padding: 50px 60px;
+  background:#ffffff00 ;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+
+}
+.popup .close-btn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #888;
+  color: #eee;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 15px;
+  cursor:pointer;
+
+} 
+.popup .form h2{
+  text-align: center;
+  color: #222;
+  margin: 10px 0px 20px;
+  font-size: 25px;
+
+}
+.popup .form .form-element label{
+  font-size: 14px;
+  color: #222;
+
+}
+.pop .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"]{
+  margin-top:5px ;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  
+}

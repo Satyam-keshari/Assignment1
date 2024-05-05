@@ -1,0 +1,36 @@
+h1{
+    text-align: left;
+    font-family: 'Montez', cursive; 
+    
+}
+body{
+    text-align:left;
+}
+form{
+    text-align: right;
+    
+}
+body{
+    background-image: url("images.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    height: 100%;
+
+
+    
+  }
+button{
+    text-align: center;
+    contain: style;
+}
+body {
+    button{
+        font-size: smaller;
+    }
+}
+.centerbutton{
+    position: fixed;top: 40%; left: 50%;transform: translate(-50%,50%);
+    
+}
